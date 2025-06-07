@@ -22,13 +22,7 @@ body {
     overflow: auto;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-}
-
-.menu {
-    float: right;
-    width: 12.5em;
-    padding-left: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0;
 }
 
 .badges a {
@@ -64,3 +58,17 @@ body {
         color: #0ff3ff;
     }
 }
+
+.source_code_link {
+    bottom: 0;
+    font-size: 0.8em;
+    padding: -2rem;
+    float: right;
+}
+
+.w3c_css_button {
+    bottom: 0;
+    float: left;
+    margin-top: 0;
+}
+
