@@ -10,19 +10,18 @@
 }
 
 body {
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
 }
 
 .content {
-    font-family: "Roboto Mono";
+    font-family: "Roboto Mono", serif;
     margin: auto;
-    padding: 2rem;
     max-width: 62.5em;
     overflow: auto;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    padding-bottom: 0;
+    padding: 2rem 2rem 0;
 }
 
 .badges a {
@@ -62,7 +61,7 @@ body {
 .source_code_link {
     bottom: 0;
     font-size: 0.8em;
-    padding: -2rem;
+    margin-bottom: -2rem;
     float: right;
 }
 
