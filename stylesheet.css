@@ -24,6 +24,11 @@ body {
     padding: 2rem 2rem 0;
 }
 
+.notop {
+    padding: 0 2rem 0;
+}
+
+
 .badges a {
     text-decoration: none;
 }
