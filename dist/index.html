@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="hoovad's website">
+        <link href="stylesheet.css" rel="stylesheet">
+        <link rel="preconnect" href="assets/fonts/RobotoMono-Regular-stripped.woff2">
+        <link rel="preconnect" href="assets/fonts/RobotoMono-Bold-stripped.woff2">
+        <script src="script.js"></script>
+        <title>hoovad</title>
+    </head>
+    <body>
+        <div class="content" role="main">
+            <noscript>
+                <p>hello! javascript is required for this page to function properly and will be used only for that purpose. it will not be used to track you, serve ads, or for any malicious intent. <a href="script.js">view javascript code</a></p>
+            </noscript>
+            <h1>hoovad,</h1>
+            <p>a jealous and insane 14-year old born in estonia and raised in spain (he/him)</p>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-toggle" aria-expanded="false" aria-controls="panel-about" id="button-about">
+                        <span class="h2">about</span>
+                        <span class="toggle-label">[expand]</span>
+                    </button>
+                </div>
+
+                <div class="panel collapsed" id="panel-about" role="region" aria-labelledby="button-about" hidden="until-found">
+                    <p>i have liked messing with computers for an extremely long time, currently i specialize in ruby (programming language), html, css and linux.</p>
+                    <p>i rarely rely on proprietary software or privacy-unfriendly services, and i will only use them if i am forced to. i daily drive a google pixel 8a running grapheneOS and the only proprietary apps that i have installed are google camera (network permission disabled) and my bank app.</p>
+                    <p>i selfhost all the services that i need to, for example, if they process my sensitive data, in a manner where the service provider can read it. however, self-hosting every service i use creates a single point of failure.</p>
+                    <p>also i like playing <a href="https://osu.ppy.sh/users/38752949">osu!mania [4K]</a>, im not really that good though</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-toggle" aria-expanded="false" aria-controls="panel-contact" id="button-contact">
+                        <span class="h2">contact</span>
+                        <span class="toggle-label">[expand]</span>
+                    </button>
+                </div>
+
+                <div class="panel collapsed" id="panel-contact" role="region" aria-labelledby="button-contact" hidden="until-found">
+                    <p>if you ever want to contact me, you'll find what you need below, listed in order of how fast i'll answer:</p>
+                    <ul>
+                        <li>XMPP/Jabber: <a href="xmpp:hoovad@redlibre.es">hoovad@redlibre.es</a>
+                            <ul>
+                                <li>If possible, please use OMEMO encryption</li>
+                            </ul>
+                        </li>
+                        <li>Discord: <a href="https://discord.com/users/1266740200780992652">hoovad</a></li>
+                        <li>matrix: <a href="https://matrix.to/#/@hoovad:unredacted.org">@hoovad:unredacted.org</a></li>
+                        <li>email: hoovad [at] proton [dot] me
+                            <ul>
+                                <li>please do not send any unsolicited messages or spam</li>
+                                <li>PGP encryption and/or signing can be used at your discretion, the key is below</li>
+                                <li><a href="https://keys.openpgp.org/vks/v1/by-fingerprint/9F72078D7B7578573FEC9B32CE5732BDE6583785" style="word-break:break-all;">9F72078D7B7578573FEC9B32CE5732BDE6583785</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <p>proof of ownership and linkability can be found <a href="https://keyoxide.org/aspe:keyoxide.org:BHVNC6RJHE2RPV4P6OA6OHJMKM">here</a>.</p>
+                    <p>i speak</p>
+                    <ul>
+                        <li>english (near native)</li>
+                        <li>spanish (advanced)</li>
+                        <li>estonian (mother language, basic vocabulary, struggle at writing and reading)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-toggle" aria-expanded="false" aria-controls="panel-software" id="button-software">
+                        <span class="h2">software</span>
+                        <span class="toggle-label">[expand]</span>
+                    </button>
+                </div>
+
+                <div class="panel collapsed" id="panel-software" role="region" aria-labelledby="button-software" hidden="until-found">
+                    <p>stuff that i have made myself, you won't find anything useful here</p>
+                    <ul>
+                        <li><a href="https://github.com/hoovad/discord.rb">discord.rb</a> -- a discord API wrapper written in ruby just because</li>
+                        <li><a href="https://codeberg.org/arpkg/arpkg">arpkg</a> -- package manager written in ruby (don't expect me to work on it)</li>
+                        <li><a href="https://github.com/hoovad/ruby-avatar-server">ruby-avatar-server</a> -- avatar server that gets an up-to-date avatar straight from discord and serves it via http</li>
+                        <li><a href="https://github.com/hoovad/hoovad.github.io">hoovad.github.io</a> -- this website</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="badges">
+                <a href="https://www.w3.org/WAI/WCAG2AA-Conformance"
+                    title="Explanation of WCAG 2 Level AA conformance">
+                    <img
+                        src="assets/88x31/wcag22AA.svg"
+                        alt="Level AA conformance,
+                                W3C Web Content Accessibility Guidelines 2.2">
+                </a>
+                <a href="https://jigsaw.w3.org/css-validator/check/referer"><img src="assets/88x31/css.svg" alt="Valid CSS!"></a>
+                <a href="https://validator.w3.org/check?uri=referer"><img src="assets/88x31/html5.svg" alt="Valid HTML!"></a>
+                <img src="assets/88x31/mobilefriendly.png" alt="This site is Mobile Friendly">
+                <a href="https://internet.nl/faqs/ipv6/"><img src="assets/88x31/ipv6.png" alt="This site is IPv6 Compatible"></a>
+                <img src="assets/88x31/vscodium.gif" alt="This site is made with VSCodium">
+                <img src="assets/88x31/firefox.gif" alt="This site is tested on Firefox">
+                <a href="https://openstreetmap.org"><img src="assets/88x31/openstreetmap.png" alt="Text 'OpenStreetMap' next to the OpenStreetMap logo"></a>
+                <a href="https://en.wikipedia.org/wiki/Illegal_number"><img src="assets/88x31/aacs.png" alt="The Free Speech Flag, with text C0 on top of it"></a>
+                <a href="https://www.w3.org/QA/Tips/iso-date"><img src="assets/88x31/iso8601.png" alt="Use ISO 8601 (YYYY-MM-DD) now!"></a>
+                <a href="https://matrix.org"><img src="assets/88x31/matrix.png" alt="Matrix wordmark"></a>
+                <a href="https://xmpp.org"><img src="assets/88x31/xmpp.gif" alt="XMPP logo"></a>
+                <a href="https://nadeko.net"><img src="assets/88x31/nadeko.png" alt="Text 'nadeko.net' next to the nadeko.net icon"></a>
+                <a href="https://tosdr.org"><img src="assets/88x31/notread.gif" alt="Text 'I have not read' next to a checked checkbox"></a>
+                <a href="https://consumerrights.wiki/w/Right_to_repair"><img src="assets/88x31/right2repair.gif" alt="I support right to repair"></a>
+                <img src="assets/88x31/tired.gif" alt="Tired af of: paywalls, advertisements, notifications, marketing emails, followers, likes, influencers, artificial scarcity, parasocial interaction.">
+                <a href="https://mullvad.net"><img src="assets/88x31/mullvad.png" alt="Mullvad; free the internet!"></a>
+                <a href="https://archive.org"><img src="assets/88x31/preserve.gif" alt="Internet Archive: Preserve the internet, games, film, TV, software, photos, books, history!"></a>
+                <a href="https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/"><img src="assets/88x31/ublock.png" alt="uBlock Origin Now!"></a>
+                <a href="https://getmonero.org"><img src="assets/88x31/monero.png" alt="Monero Now!"></a>
+                <a href="https://grapheneos.org"><img src="assets/88x31/grapheneos.png" alt="Text 'GrapheneOS' next to the GrapheneOS logo"></a>
+                <img src="assets/88x31/handcode.png" alt="This site has 100% hand-coded HTML">
+                <a href="https://unredacted.org"><img src="assets/88x31/unredacted.gif" alt="Loading... Securing infrastructure... Evading Censorship... Protecting Privacy... UNREDACTED.org"></a>
+                <a href="https://techforpalestine.org/learn-more/"><img src="assets/88x31/palestine.png" alt="Free Palestine"></a>
+                <img src="assets/88x31/encrypt.gif" alt="Encrypt your shit!!!">
+                <a href="https://artixlinux.org"><img src="assets/88x31/artix.gif" alt="Artix Linux; Simple, Fast, Systemd Free"></a>
+            </div>
+
+            <div class="copyright">
+                <p>GrapheneOS badge courtesy of <a href="https://projxyz.net/">mgr42</a></p>
+                <p>(c) hoovad 2024-2026, <a href="https://raw.githubusercontent.com/hoovad/hoovad.github.io/refs/heads/cloudflare/LICENSE">some rights reserved</a>, <a href="https://github.com/hoovad/hoovad.github.io/tree/cloudflare">source code</a></p>
+            </div>
+        </div>
+        <div class="image"></div>
+    </body>
+</html>
